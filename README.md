@@ -90,6 +90,8 @@ df = pd.DataFrame(replies)
 df.groupby(["uid", "name"]).size().sort_values(ascending=False).to_excel("rank.xlsx")
 ```
 这段代码可以统计[av85002656](https://www.bilibili.com/video/av85002656)某两层评论中各用户的盖楼数，并输出到Excel。
+### 统计Excel中楼中楼内容，提取词云(`wordcloud_example.py`)
+这段代码可以读取Excel，统计盖楼关键词，输出词云。
 ### 在你的程序中引入本接口
 ```python
 import BiliReplyDetailCrawler
