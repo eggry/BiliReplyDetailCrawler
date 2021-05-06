@@ -1,6 +1,6 @@
 # BiliReplyDetailCrawler
 ## 概述
-本项目为Bilibili评论区楼中楼API封装了一套Python接口。基于此接口，本项目提供了爬取楼中楼内容、统计用户盖楼数量两个实用例程。此外，本项目还简述了Bilibili评论区楼中楼的API接口调用方法。
+本项目为Bilibili评论区楼中楼API封装了一套Python接口。基于此接口，本项目提供了爬取楼中楼内容、统计用户盖楼数量等多个实用例程。此外，本项目还简述了Bilibili评论区楼中楼的API接口调用方法。
 ## 楼中楼数据接口分析
 ### 请求接口
 api.bilibili.com/x/v2/reply/detail
